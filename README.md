@@ -40,8 +40,8 @@ This Python script computes the surface water extent time series for a specified
 1. **Open Google Colab**:
    - Go to [Google Colab](https://colab.research.google.com/).
 
-2. **Upload Notebook**:
-   - Time_Series_Analysis.ipynb
+2. **Open the Notebook**:
+   - Open the notebook directly from GitHub by using the URL: [Time_Series_Analysis.ipynb] (https://github.com/nishuyaduwanshi/Time_Series_Analysis/blob/ae8affaac313652c853aa35d2c2c1be730166e89/Time_Series_Analysis.ipynb)
 
 3. **Install Required Packages**:
    - In the first cell, enter the following code to install the required packages and authenticate Google Earth Engine:
@@ -61,10 +61,12 @@ This Python script computes the surface water extent time series for a specified
      %cd Time_Series_Analysis
      ```
 
-5. **Run the Script**:
-   - In the following cell, run the Python script:
-     ```python
-     !python Time_Series_Analysis.ipynb
+5. **Open the Notebook from the Repository**:
+   - Open the `Time_Series_Analysis.ipynb` notebook from the file browser on the left panel in Google Colab.
+
+6. **Run the Notebook Cells**:
+   - Run each cell in the notebook sequentially by pressing `Shift + Enter` or by clicking the play button next to each cell.
+
 ## Workflow
 
 1. **Select Area of Interest (AOI):**
