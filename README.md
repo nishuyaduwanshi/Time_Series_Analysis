@@ -1,5 +1,4 @@
-<img width="1331" alt="step 2" src="https://github.com/nishuyaduwanshi/Time_Series_Analysis/assets/170518265/1f762a57-4973-4d87-9493-9d381fd6389a"># Surface Water Extent Time Series
-
+# Surface Water Extent Time Series
 This Python script computes the surface water extent time series for a specified inland water body and time range using the Google Earth Engine Python API. It calculates the total surface water area within the specified water body for each image in the provided time range and creates a time series of the surface water extent values. 
 
 ## Table of Contents
@@ -7,10 +6,6 @@ This Python script computes the surface water extent time series for a specified
 - [Requirements](#requirements)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Results](#results)
-- [Files](#files)
-- [License](#license)
-
 
 ## Requirements
 
@@ -71,7 +66,7 @@ This Python script computes the surface water extent time series for a specified
 5. **Run the Script**:
    - In the following cell, run your Python script:
      ```python
-     !python TimeSeriesAnalysis.py
+     !python Time_Series_Analysis.py
 ## Workflow
 
 1. **Select Area of Interest (AOI):**
