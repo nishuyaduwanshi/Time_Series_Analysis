@@ -8,9 +8,7 @@ This Python script computes the surface water extent time series for a specified
 - [Usage](#usage)
 
 ## Requirements
-
-- Python 3.6+
-- Jupyter Notebook
+- Google Colab
 - [Google Earth Engine](https://earthengine.google.com/)
 - Required Python packages:
   - `geemap`
