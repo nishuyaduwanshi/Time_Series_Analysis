@@ -22,7 +22,7 @@ This Python script computes the surface water extent time series for a specified
 
 ## Setup and Installation
 
-1. **Install the Required Packages:**
+1. **Install the Required Packages:** 
     ```bash
     pip install geemap earthengine-api folium matplotlib pandas seaborn geopandas requests
     ```
@@ -36,14 +36,10 @@ This Python script computes the surface water extent time series for a specified
 
 ## Usage
 
-
-1. **Open Google Colab**:
-   - Go to [Google Colab](https://colab.research.google.com/).
-
-2. **Open the Notebook**:
-   - Open the notebook directly from GitHub by using the URL: [Time_Series_Analysis.ipynb] (https://github.com/nishuyaduwanshi/Time_Series_Analysis/blob/ae8affaac313652c853aa35d2c2c1be730166e89/Time_Series_Analysis.ipynb)
-
-3. **Install Required Packages**:
+1. **Open the Notebook**:
+   - Open the notebook directly from GitHub by using the URL:  [Time_Series_Analysis.ipynb](https://github.com/nishuyaduwanshi/Time_Series_Analysis/blob/ae8affaac313652c853aa35d2c2c1be730166e89/Time_Series_Analysis.ipynb)
+   
+2. **Install Required Packages**:
    - In the first cell, enter the following code to install the required packages and authenticate Google Earth Engine:
      ```python
      !pip install earthengine-api
@@ -54,18 +50,9 @@ This Python script computes the surface water extent time series for a specified
      ee.Initialize()
      ```
 
-4. **Clone the Repository**:
-   - In the next cell, clone GitHub repository:
-     ```python
-     !git clone [https://github.com/nishuyaduwanshi/Time_Series_Analysis.git]
-     %cd Time_Series_Analysis
-     ```
-
-5. **Open the Notebook from the Repository**:
-   - Open the `Time_Series_Analysis.ipynb` notebook from the file browser on the left panel in Google Colab.
-
-6. **Run the Notebook Cells**:
+3. **Run the Notebook Cells**:
    - Run each cell in the notebook sequentially by pressing `Shift + Enter` or by clicking the play button next to each cell.
+     
 
 ## Workflow
 
