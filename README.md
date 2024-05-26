@@ -37,7 +37,7 @@ This Python script computes the surface water extent time series for a specified
 ## Usage
 
 1. **Open the Notebook**:
-   - Open the notebook directly from GitHub by using the URL:  [Time_Series_Analysis.ipynb](https://github.com/nishuyaduwanshi/Time_Series_Analysis/blob/ae8affaac313652c853aa35d2c2c1be730166e89/Time_Series_Analysis.ipynb)
+   - Open the notebook directly from GitHub by using the URL:  [Time_Series_Analysis.py](https://github.com/nishuyaduwanshi/Time_Series_Analysis/blob/18e157d33f957ad9bb888acf8a159f9ed72e2f65/time_series_analysis.py)
    
 2. **Install Required Packages**:
    - In the first cell, enter the following code to install the required packages and authenticate Google Earth Engine:
