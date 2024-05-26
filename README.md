@@ -48,19 +48,19 @@ This Python script computes the surface water extent time series for a specified
 3. **Install Required Packages**:
    - In the first cell, enter the following code to install the required packages and authenticate Google Earth Engine:
      ```python
-     !pip install geemap earthengine-api
+     !pip install earthengine-api
+     !pip install geemap
      
      import ee
-     from google.colab import auth
-     auth.authenticate_user()
+     ee.Authenticate()
      ee.Initialize()
      ```
 
 4. **Clone the Repository**:
    - In the next cell, clone your GitHub repository:
      ```python
-     !git clone https://github.com/your_username/surface-water-extent.git
-     %cd surface-water-extent
+     !git clone [https://github.com/nishuyaduwanshi/Time_Series_Analysis.git]
+     %cd Time_Series_Analysis
      ```
 
 5. **Run the Script**:
