@@ -1,4 +1,4 @@
-# Surface Water Extent Time Series
+<img width="1331" alt="step 2" src="https://github.com/nishuyaduwanshi/Time_Series_Analysis/assets/170518265/1f762a57-4973-4d87-9493-9d381fd6389a"># Surface Water Extent Time Series
 
 This Python script computes the surface water extent time series for a specified inland water body and time range using the Google Earth Engine Python API. It calculates the total surface water area within the specified water body for each image in the provided time range and creates a time series of the surface water extent values. 
 
@@ -43,37 +43,63 @@ This Python script computes the surface water extent time series for a specified
 
 ## Usage
 
-1. **Run the Jupyter Notebook:**
-    ```bash
-    jupyter notebook aral_sea_analysis.ipynb
-    ```
 
-2. **Select Area of Interest (AOI):**
+1. **Open Google Colab**:
+   - Go to [Google Colab](https://colab.research.google.com/).
+
+2. **Create a New Notebook**:
+   - Click on "File" -> "New Notebook".
+
+3. **Install Required Packages**:
+   - In the first cell, enter the following code to install the required packages and authenticate Google Earth Engine:
+     ```python
+     !pip install geemap earthengine-api
+     
+     import ee
+     from google.colab import auth
+     auth.authenticate_user()
+     ee.Initialize()
+     ```
+
+4. **Clone the Repository**:
+   - In the next cell, clone your GitHub repository:
+     ```python
+     !git clone https://github.com/your_username/surface-water-extent.git
+     %cd surface-water-extent
+     ```
+
+5. **Run the Script**:
+   - In the following cell, run your Python script:
+     ```python
+     !python TimeSeriesAnalysis.py
+## Workflow
+
+1. **Select Area of Interest (AOI):**
     Use the 'Draw a Rectangle' tool on the map to select the AOI.
+<img width="988" alt="step 1" src="https://github.com/nishuyaduwanshi/Time_Series_Analysis/assets/170518265/57043b2d-1317-47b5-9e56-548a55b9421a">
 
-3. **Save and Extract Coordinates:**
-    The coordinates of the AOI will be saved to a GeoJSON file (`aoi_defined.geojson`).
+2. **Save and Extract Coordinates:**
+    
+<img width="1331" alt="step 2" src="https://github.com/nishuyaduwanshi/Time_Series_Analysis/assets/170518265/3b75c240-6bfe-4c5e-b064-24907c27eb19">
 
-4. **Process Satellite Images:**
+3. **Load Data**: Load the Global Surface Water data from Google Earth Engine.
+
+4.  **Filter Data**: Filter the data for the specified time range and location.
+
+
+5. **Process Satellite Images:**
     The script processes the images to calculate the water surface area for the specified years.
 
-5. **Generate and Save Time Series Plot:**
+6. **Generate and Save Time Series Plot:**
     The script generates a time series plot of the water surface area and saves it as `water_surface_area.png`.
+<img width="642" alt="step 7" src="https://github.com/nishuyaduwanshi/Time_Series_Analysis/assets/170518265/7fafb420-345e-4e68-be19-8a6010a4dc29">
 
-## Results
+### Example Images
 
-The results include:
-- Side-by-side visual comparison of the Aral Sea in the years 2000 and 2014.
-- A time series plot of the water surface area from 2000 to 2014.
+Below are example images showing the Aral Sea in 2000 and 2014:
 
-![Water Surface Area Time Series](water_surface_area.png)
+![Aral Sea 2000](https://eoimages.gsfc.nasa.gov/images/imagerecords/84000/84437/aralsea_tmo_2000238.jpg)
+![Aral Sea 2014](https://eoimages.gsfc.nasa.gov/images/imagerecords/84000/84437/aralsea_tmo_2014231.jpg)
 
-## Files
 
-- `aral_sea_analysis.ipynb`: Jupyter Notebook containing the analysis code.
-- `aoi_defined.geojson`: GeoJSON file containing the AOI coordinates.
-- `water_surface_area.png`: Generated time series plot of the water surface area.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
