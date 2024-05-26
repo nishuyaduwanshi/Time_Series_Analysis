@@ -57,16 +57,16 @@ This Python script computes the surface water extent time series for a specified
      ```
 
 4. **Clone the Repository**:
-   - In the next cell, clone your GitHub repository:
+   - In the next cell, clone GitHub repository:
      ```python
      !git clone [https://github.com/nishuyaduwanshi/Time_Series_Analysis.git]
      %cd Time_Series_Analysis
      ```
 
 5. **Run the Script**:
-   - In the following cell, run your Python script:
+   - In the following cell, run the Python script:
      ```python
-     !python Time_Series_Analysis.py
+     !python Time_Series_Analysis.ipynb
 ## Workflow
 
 1. **Select Area of Interest (AOI):**
