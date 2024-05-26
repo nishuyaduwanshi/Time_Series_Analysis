@@ -40,7 +40,7 @@ This Python script computes the surface water extent time series for a specified
 1. **Open Google Colab**:
    - Go to [Google Colab](https://colab.research.google.com/).
 
-2. **Upload the Time_Series_Analysis.ipynb file**:
+2. **Upload Notebook**:
    
 
 3. **Install Required Packages**:
